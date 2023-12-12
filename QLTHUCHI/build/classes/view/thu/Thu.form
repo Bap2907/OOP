@@ -4,6 +4,7 @@
   <NonVisualComponents>
     <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
     </Component>
+<<<<<<< HEAD
     <Container class="javax.swing.JDialog" name="dialog_dsThu">
       <Properties>
         <Property name="modal" type="boolean" value="true"/>
@@ -93,6 +94,22 @@
         </Container>
       </SubComponents>
     </Container>
+=======
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -101,6 +118,10 @@
     </Property>
   </Properties>
   <SyntheticProperties>
+<<<<<<< HEAD
+=======
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
@@ -120,8 +141,14 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
               <EmptySpace max="32767" attributes="0"/>
               <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+=======
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
           </Group>
       </Group>
     </DimensionLayout>
@@ -137,16 +164,27 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
+=======
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
               <Group type="102" alignment="1" attributes="0">
+=======
+              <Group type="102" alignment="0" attributes="0">
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -160,7 +198,11 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
+<<<<<<< HEAD
                       <EmptySpace max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="39" max="32767" attributes="0"/>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Group type="103" alignment="1" groupAlignment="0" attributes="0">
@@ -179,10 +221,22 @@
                               <Component id="button_save" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD
+=======
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="text_tienthu" min="-2" pref="350" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="button_calculator" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="text_ghichu" min="-2" pref="350" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Component id="button_danh_sach_thu" min="-2" max="-2" attributes="0"/>
@@ -196,6 +250,8 @@
                               </Group>
                               <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           </Group>
+=======
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                       </Group>
                   </Group>
                   <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
@@ -232,11 +288,16 @@
                               <Component id="button_calculator" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
+<<<<<<< HEAD
                       <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="button_danh_sach_thu" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
+=======
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                       <EmptySpace pref="40" max="32767" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="255" max="-2" attributes="0"/>
                   </Group>
@@ -438,6 +499,7 @@
                 </Container>
               </SubComponents>
             </Container>
+<<<<<<< HEAD
             <Component class="javax.swing.JButton" name="button_danh_sach_thu">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -455,6 +517,8 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_danh_sach_thuActionPerformed"/>
               </Events>
             </Component>
+=======
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
           </SubComponents>
         </Container>
       </SubComponents>

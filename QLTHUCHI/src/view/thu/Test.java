@@ -15,7 +15,11 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JToggleButton;
+<<<<<<< HEAD
 import model.objects.TypeO;
+=======
+import model.objects.Types;
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
 
 /**
  *
@@ -35,14 +39,22 @@ public class Test extends javax.swing.JFrame {
 
     private void setPanelDanhMuc(){
         typeController = new TypeController();
+<<<<<<< HEAD
         List<TypeO> types = typeController.getAllTypeExpenses();
+=======
+        List<Types> types = typeController.getAllTypeExpenses();
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         int length = types.size();
         int rows = (int)length/3 + 1;
         panel_danhmuc.setLayout(new GridLayout(rows,3));
         
         
         
+<<<<<<< HEAD
         for(TypeO type:types){
+=======
+        for(Types type:types){
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
             ImageIcon icon;
             JToggleButton toggleButton;
             if(!(type.getIcon_Path() == null)){

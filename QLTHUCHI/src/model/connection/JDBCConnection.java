@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 
+=======
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
 package model.connection;
 
 import com.microsoft.sqlserver.jdbc.SQLServerException;
@@ -7,6 +14,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+<<<<<<< HEAD
 public class JDBCConnection {
     public static Connection getJDBCConnection(){
 //<<<<<<< HEAD
@@ -14,6 +22,18 @@ public class JDBCConnection {
         String user = "sa";
         String password = "123456789";
 
+=======
+
+/**
+ *
+ * @author LENOVO
+ */
+public class JDBCConnection {
+    public static Connection getJDBCConnection(){
+        String url = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;databaseName=QLTHUCHI;encrypt = true;trustServerCertificate=true";
+        String user = "sa";
+        String password = "123456789";
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         try {
             Connection connection = DriverManager.getConnection(url,user, password);
             System.out.println("Connect successful");

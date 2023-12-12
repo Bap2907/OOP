@@ -142,9 +142,12 @@
               <Dimension value="[48, 48]"/>
             </Property>
           </Properties>
+<<<<<<< HEAD
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_chartActionPerformed"/>
           </Events>
+=======
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         </Component>
         <Component class="javax.swing.JButton" name="button_calendar">
           <Properties>
@@ -152,9 +155,12 @@
               <Dimension value="[48, 48]"/>
             </Property>
           </Properties>
+<<<<<<< HEAD
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_calendarActionPerformed"/>
           </Events>
+=======
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         </Component>
         <Component class="javax.swing.JButton" name="button_dotted">
           <Properties>

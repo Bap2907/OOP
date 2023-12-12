@@ -2,10 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/D:/JAVA%20QLCT/OOP/QLTHUCHI/src/LoginSignup/View/SignUp.java</file>
             <file>file:/D:/JAVA%20QLCT/OOP/QLTHUCHI/src/LoginSignup/View/Login.java</file>
             <file>file:/D:/JAVA%20QLCT/OOP/QLTHUCHI/src/LoginSignup/View/ForgetPass.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
     </open-files>
 </project-private>

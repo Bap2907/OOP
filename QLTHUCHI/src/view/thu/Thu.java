@@ -16,10 +16,16 @@ import javax.swing.AbstractButton;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JToggleButton;
+<<<<<<< HEAD
 import model.objects.LogO;
 import model.objects.TypeO;
 import view.calculator.Calculator;
 import view.danhmuc.ThuJPanel;
+=======
+import model.objects.Logs;
+import model.objects.Types;
+import view.calculator.Calculator;
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
 
 /**
  *
@@ -46,9 +52,12 @@ public class Thu extends javax.swing.JFrame {
     }
     
     private void setDefaultThings(){
+<<<<<<< HEAD
         dialog_dsThu.setSize(500,500);
         dialog_dsThu.setLocationRelativeTo(null);
         dialog_dsThu.setTitle("Danh sách thu");
+=======
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         
         button_save.setIcon(new ImageIcon("src\\source\\img\\Thu_Chi\\icons8-pencil-64.png"));
         logController = new LogController();
@@ -62,12 +71,21 @@ public class Thu extends javax.swing.JFrame {
         
         
         typeController = new TypeController();
+<<<<<<< HEAD
         List<TypeO> types = typeController.getAllTypeExpenses();
         int length = types.size();
         int rows = (int)length/3 + 1;
         panel_danhmuc.setLayout(new GridLayout(rows,3));
         
         for(TypeO type:types){
+=======
+        List<Types> types = typeController.getAllTypeExpenses();
+        int length = types.size();
+        int rows = (int)length/4 + 1;
+        panel_danhmuc.setLayout(new GridLayout(rows,4));
+        
+        for(Types type:types){
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
             ImageIcon icon;
             JToggleButton toggleButton;
             if(!(type.getIcon_Path() == null)){
@@ -96,12 +114,15 @@ public class Thu extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
+<<<<<<< HEAD
         dialog_dsThu = new javax.swing.JDialog();
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+=======
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         jPanel3 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
@@ -117,6 +138,7 @@ public class Thu extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         panel_danhmuc = new javax.swing.JPanel();
         button_chinhsua1 = new javax.swing.JButton();
+<<<<<<< HEAD
         button_danh_sach_thu = new javax.swing.JButton();
 
         dialog_dsThu.setModal(true);
@@ -173,6 +195,11 @@ public class Thu extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
+=======
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 204, 204));
@@ -266,6 +293,7 @@ public class Thu extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(panel_danhmuc);
 
+<<<<<<< HEAD
         button_danh_sach_thu.setBackground(new java.awt.Color(51, 255, 255));
         button_danh_sach_thu.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
         button_danh_sach_thu.setForeground(new java.awt.Color(255, 255, 255));
@@ -276,12 +304,18 @@ public class Thu extends javax.swing.JFrame {
             }
         });
 
+=======
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+                .addContainerGap(39, Short.MAX_VALUE)
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel9)
                     .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -296,6 +330,7 @@ public class Thu extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(button_save, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(30, 30, 30))
+<<<<<<< HEAD
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel5Layout.createSequentialGroup()
                         .addComponent(text_ghichu, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap())
@@ -309,6 +344,18 @@ public class Thu extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(button_calculator, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(27, 27, 27))))
+=======
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(text_tienthu, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel10)
+                        .addGap(18, 18, 18)
+                        .addComponent(button_calculator, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(27, 27, 27))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel5Layout.createSequentialGroup()
+                        .addComponent(text_ghichu, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())))
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
             .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
@@ -335,10 +382,15 @@ public class Thu extends javax.swing.JFrame {
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addComponent(button_calculator, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+<<<<<<< HEAD
                 .addGap(51, 51, 51)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
                     .addComponent(button_danh_sach_thu))
+=======
+                .addGap(54, 54, 54)
+                .addComponent(jLabel9)
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -347,6 +399,7 @@ public class Thu extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -355,17 +408,44 @@ public class Thu extends javax.swing.JFrame {
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+=======
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(6, 6, 6))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
+<<<<<<< HEAD
+=======
+        jMenu1.setText("File");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
+
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                .addContainerGap()
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -376,7 +456,11 @@ public class Thu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void button_chinhsua1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_chinhsua1ActionPerformed
+<<<<<<< HEAD
         new ThuJPanel().setVisible(true);
+=======
+        // TODO add your handling code here:
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
     }//GEN-LAST:event_button_chinhsua1ActionPerformed
 
     private void text_ghichuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_text_ghichuActionPerformed
@@ -395,9 +479,15 @@ public class Thu extends javax.swing.JFrame {
 
             String ghichu = text_ghichu.getText();
 
+<<<<<<< HEAD
             int tienthu = 0;
             try {
                 tienthu = Integer.valueOf(String.valueOf(text_tienthu.getText()));
+=======
+            Double tienthu = 0.0;
+            try {
+                tienthu = Double.valueOf(String.valueOf(text_tienthu.getText()));
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
             } catch (NumberFormatException e) {
                 JOptionPane.showMessageDialog(Thu.this, "Vụi lòng nhập đúng số tiền!", "Thông báo",JOptionPane.OK_OPTION);
             }
@@ -414,6 +504,7 @@ public class Thu extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(Thu.this, "Vui lòng chọn một danh mục!","Thông báo", JOptionPane.OK_OPTION);
                 return;
             }
+<<<<<<< HEAD
             LogO log = new LogO();
             
             log.setUser_ID(id_user);
@@ -421,6 +512,13 @@ public class Thu extends javax.swing.JFrame {
             log.setNote(ghichu);
             log.setPrice(tienthu);
             log.setDateString(Utils.Utils.converDateToString(date, "dd/MM/yyyy"));
+=======
+            Logs log = new Logs();
+            log.setID_Type(Integer.parseInt(id_Type));
+            log.setNote(ghichu);
+            log.setPrice((tienthu));
+            log.setDatesString(date);
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
             try {
                 logController.addLog(log);
                 JOptionPane.showMessageDialog(Thu.this, "Thành Công","Thông báo", JOptionPane.OK_OPTION);
@@ -439,6 +537,7 @@ public class Thu extends javax.swing.JFrame {
         
     }//GEN-LAST:event_button_calculatorActionPerformed
 
+<<<<<<< HEAD
     private void button_danh_sach_thuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_danh_sach_thuActionPerformed
         dialog_dsThu.setVisible(true);
     }//GEN-LAST:event_button_danh_sach_thuActionPerformed
@@ -450,28 +549,50 @@ public class Thu extends javax.swing.JFrame {
 //            }
 //        });
 //    }
+=======
+    public static void main(String args[]) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Thu(1).setVisible(true);
+            }
+        });
+    }
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton button_calculator;
     private javax.swing.JButton button_chinhsua1;
+<<<<<<< HEAD
     private javax.swing.JButton button_danh_sach_thu;
     private javax.swing.JButton button_save;
     private javax.swing.JDialog dialog_dsThu;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+=======
+    private javax.swing.JButton button_save;
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
     private com.toedter.calendar.JDateChooser jDateChooser1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+<<<<<<< HEAD
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable1;
+=======
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JScrollPane jScrollPane1;
+>>>>>>> 5700697411fd1d0c4908684aa132beb38c23a87c
     private javax.swing.JPanel panel_danhmuc;
     private javax.swing.JTextField text_ghichu;
     private javax.swing.JTextField text_tienthu;
